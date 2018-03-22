@@ -1,0 +1,21 @@
+<h1>This is the Index page</h1>
+<table style="width:100%">
+ <thead>
+  <tr>
+    <th>Id</th>
+    <th>Date</th>
+    <th>Time</th> 
+    <th>Capacity</th>
+  </tr>
+  </thead>
+<% @klasses.each do |klass| %>
+  <tbody>
+  <tr>
+    <td><%= klass.id %> </td>
+    <td><%= klass.date %> </td> 
+    <td><%= klass.my_time %> </td>
+    <td><%= klass.capacity %> </td>
+  </tr>
+  </tbody>
+ <% end %>
+</table>

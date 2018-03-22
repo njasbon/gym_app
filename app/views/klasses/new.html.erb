@@ -1,0 +1,7 @@
+<%= form_for @klass, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
+  <%= f.text_field :date %>
+  <%= f.text_field :time %>
+  <%= f.text_field :capacity %>
+
+  <%= f.submit "Create" %>
+<% end %>

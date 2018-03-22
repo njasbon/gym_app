@@ -12,6 +12,9 @@ User.create(name: 'Nicolle Jasbon', email: 'njasbon@gmail.com')
 User.create(name: 'Matt Kirk', email: 'matt.22222@hotmail.com')
 User.create(name: 'Angel Medina', email: 'angelmmed12@gmail.com')
 User.create(name: 'Florrette Masillon', email: 'floman@agrinya.org')
+User.create(name: 'Ana Cristina Stanic', email: 'acp411@hotmail.com')
+User.create(name: 'Gabriel Jasbon', email: 'gabe08@hotmail.com')
+
 
 Klass.create({date: "2018-03-21", time: "18:30", capacity: 15})
 Klass.create({date: "2018-03-22", time: "17:30", capacity: 15})
@@ -26,5 +29,11 @@ Klass.create({date: "2018-03-25", time: "17:30", capacity: 15})
 Klass.create({date: "2018-03-26", time: "18:30", capacity: 15})
 
 Reservation.create(user_id: 1, klass_id: 1, waitlist: false)
+Reservation.create(user_id: 2, klass_id: 1, waitlist: false)
+Reservation.create(user_id: 3, klass_id: 1, waitlist: false)
+Reservation.create(user_id: 4, klass_id: 1, waitlist: false)
+Reservation.create(user_id: 5, klass_id: 1, waitlist: false)
+Reservation.create(user_id: 6, klass_id: 1, waitlist: false)
+
 
 

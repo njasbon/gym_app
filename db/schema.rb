@@ -13,8 +13,8 @@
 ActiveRecord::Schema.define(version: 20180321202719) do
 
   create_table "klasses", force: :cascade do |t|
-    t.string "date"
-    t.string "time"
+    t.date "date"
+    t.time "time"
     t.integer "capacity"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
