@@ -9,18 +9,22 @@ table, th, td {border: 1px solid black; margin: 0 auto; width: 500px; text-align
   <tr>
     <th>Id</th>
     <th>Date</th>
-    <th>Time</th> 
+    <th>Time</th>
+    <th>Spots Available</th>
     <th>Capacity</th>
+    <th>Reservation</th>
+
   </tr>
   </thead>
 <% @klasses.each do |klass| %>
   <tbody>
   <tr>
   <td><%= klass.id %> </td>
-  <td><%= klass.date %> </td> 
+  <td><%= klass.my_date %> </td> 
   <td><%= klass.my_time %> </td>
+  <td><%= klass.sign_up %> </td>
   <td><%= klass.capacity %> </td>
-  <td><%= link_to 'Sign Up for this Klass!', "/klasses/#{klass.id}" %></td>
+  <td><%= link_to 'Reserve', "/klasses/#{klass.id}" %></td>
 
   </tr>
   </tbody>

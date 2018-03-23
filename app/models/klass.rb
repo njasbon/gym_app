@@ -5,4 +5,13 @@ class Klass < ActiveRecord::Base
   def my_time
     time.strftime('%I:%M:%S %p')
   end
+  
+  def my_date
+    date.strftime('%A, %b %d')
+  end
+  
+  def sign_up
+    capacity - reservations.length
+  end
+  
 end

@@ -1,4 +1,4 @@
-<h1>The <%=@reservation.user.name%> has signed up for #{time} and #{date} class</h1>
+<h2>The <%=@reservation.user.name%> has signed up for the <%=@reservation.klass.my_time %> class on <%= @reservation.klass.my_date%> </h2>
 
-<h1> return to view classes:</h1>
-<%= link_to 'View all classes', "/klasses/" %>
+<h3><%= link_to 'Go back to view classes', "/klasses/" %></h3>
+
