@@ -1,5 +1,5 @@
 class User < ActiveRecord::Base
-  has_many :users
-  has_many :reservations, through: :users
+  has_many :reservations
+  has_many :klasses, through: :reservations
 end
 

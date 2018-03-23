@@ -24,6 +24,7 @@ class KlassesController < ApplicationController
   
   def show
     @klass = Klass.find(params[:id])
+    @users = User.all
   end
   
   def destroy

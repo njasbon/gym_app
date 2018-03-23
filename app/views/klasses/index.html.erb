@@ -1,5 +1,10 @@
-<h1>This is the Index page</h1>
-<table style="width:100%">
+<h1>This is the Index page for Klasses</h1>
+<table>
+  <head>
+<style>
+table, th, td {border: 1px solid black; margin: 0 auto; width: 500px; text-align: center; }
+</style>
+</head>
  <thead>
   <tr>
     <th>Id</th>
@@ -11,10 +16,12 @@
 <% @klasses.each do |klass| %>
   <tbody>
   <tr>
-    <td><%= klass.id %> </td>
-    <td><%= klass.date %> </td> 
-    <td><%= klass.my_time %> </td>
-    <td><%= klass.capacity %> </td>
+  <td><%= klass.id %> </td>
+  <td><%= klass.date %> </td> 
+  <td><%= klass.my_time %> </td>
+  <td><%= klass.capacity %> </td>
+  <td><%= link_to 'Sign Up for this Klass!', "/klasses/#{klass.id}" %></td>
+
   </tr>
   </tbody>
  <% end %>

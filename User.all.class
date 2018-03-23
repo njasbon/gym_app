@@ -1,0 +1,197 @@
+[1m[1;34mObject.methods[0m[0m: yaml_tag
+[1m[1;34mActiveModel::Naming#methods[0m[0m: model_name
+[1m[1;34mActiveSupport::Benchmarkable#methods[0m[0m: benchmark
+[1m[1;34mActiveSupport::DescendantsTracker#methods[0m[0m: descendants  direct_descendants
+[1m[1;34mActiveRecord::ConnectionHandling#methods[0m[0m: 
+  clear_active_connections!      connected?         connection_specification_name   retrieve_connection
+  clear_all_connections!         connection         connection_specification_name=  sqlite3_connection 
+  clear_cache!                   connection_config  establish_connection          
+  clear_reloadable_connections!  connection_pool    remove_connection             
+[1m[1;34mActiveRecord::QueryCache::ClassMethods#methods[0m[0m: cache  uncached
+[1m[1;34mActiveRecord::Querying#methods[0m[0m: 
+  any?          distinct         find_or_create_by      fourth      last!             none?       rewhere          third!        
+  average       eager_load       find_or_create_by!     fourth!     left_joins        offset      second           third_to_last 
+  calculate     except           find_or_initialize_by  from        left_outer_joins  one?        second!          third_to_last!
+  count         exists?          first                  group       limit             or          second_to_last   unscope       
+  count_by_sql  extending        first!                 having      lock              order       second_to_last!  update        
+  create_with   fifth            first_or_create        ids         many?             pluck       select           update_all    
+  delete        fifth!           first_or_create!       in_batches  maximum           preload     sum              where         
+  delete_all    find_by_sql      first_or_initialize    includes    merge             readonly    take           
+  destroy       find_each        forty_two              joins       minimum           references  take!          
+  destroy_all   find_in_batches  forty_two!             last        none              reorder     third          
+[1m[1;34mActiveModel::Translation#methods[0m[0m: human_attribute_name
+[1m[1;34mActiveRecord::Translation#methods[0m[0m: i18n_scope  lookup_ancestors
+[1m[1;34mActiveRecord::Explain#methods[0m[0m: collecting_queries_for_explain  exec_explain
+[1m[1;34mActiveRecord::Enum#methods[0m[0m: enum
+[1m[1;34mActiveRecord::Delegation::DelegateCache#methods[0m[0m: initialize_relation_delegate_cache  relation_delegate_class
+[1m[1;34mActiveRecord::CollectionCacheKey#methods[0m[0m: collection_cache_key
+[1m[1;34mActiveRecord::Core::ClassMethods#methods[0m[0m: 
+  ===       arel_attribute  arel_table  find_by   generated_association_methods  inspect            type_caster
+  allocate  arel_engine     find        find_by!  initialize_find_by_cache       predicate_builder
+[1m[1;34mActiveRecord::Persistence::ClassMethods#methods[0m[0m: create  create!  instantiate
+[1m[1;34mActiveRecord::ReadonlyAttributes::ClassMethods#methods[0m[0m: attr_readonly  readonly_attributes
+[1m[1;34mActiveRecord::ModelSchema::ClassMethods#methods[0m[0m: 
+  _default_attributes  columns                 ignored_columns      prefetch_primary_key?     reset_sequence_name  table_name        
+  attribute_types      columns_hash            ignored_columns=     protected_environments    reset_table_name     table_name=       
+  attributes_builder   content_columns         inheritance_column   protected_environments=   sequence_name        type_for_attribute
+  column_defaults      full_table_name_prefix  inheritance_column=  quoted_table_name         sequence_name=       yaml_encoder      
+  column_names         full_table_name_suffix  next_sequence_value  reset_column_information  table_exists?      
+[1m[1;34mActiveRecord::Inheritance::ClassMethods#methods[0m[0m: 
+  abstract_class  abstract_class=  abstract_class?  base_class  descends_from_active_record?  finder_needs_type_condition?  new  sti_name
+[1m[1;34mActiveRecord::Scoping::ClassMethods#methods[0m[0m: current_scope  current_scope=  scope_attributes
+[1m[1;34mActiveRecord::Scoping::Default::ClassMethods#methods[0m[0m: before_remove_const  scope_attributes?  unscoped
+[1m[1;34mActiveRecord::Scoping::Named::ClassMethods#methods[0m[0m: all  default_extensions  default_scoped  scope  scope_for_association
+[1m[1;34mActiveModel::Conversion::ClassMethods#methods[0m[0m: _to_partial_path
+[1m[1;34mActiveRecord::Integration::ClassMethods#methods[0m[0m: to_param
+[1m[1;34mActiveModel::Validations::ClassMethods#methods[0m[0m: 
+  clear_validators!  validate  validates  validates!  validates_each  validates_with  validators  validators_on
+[1m[1;34mActiveModel::Callbacks#methods[0m[0m: define_model_callbacks
+[1m[1;34mActiveSupport::Callbacks::ClassMethods#methods[0m[0m: 
+  __update_callbacks  define_callbacks  normalize_callback_params  reset_callbacks  set_callback  skip_callback
+[1m[1;34mActiveModel::Validations::HelperMethods#methods[0m[0m: 
+  validates_acceptance_of    validates_exclusion_of  validates_inclusion_of   
+  validates_confirmation_of  validates_format_of     validates_numericality_of
+[1m[1;34mActiveRecord::Validations::ClassMethods#methods[0m[0m: 
+  validates_absence_of  validates_associated  validates_length_of  validates_presence_of  validates_size_of  validates_uniqueness_of
+[1m[1;34mActiveRecord::CounterCache::ClassMethods#methods[0m[0m: decrement_counter  increment_counter  reset_counters
+[1m[1;34mActiveRecord::Attributes::ClassMethods#methods[0m[0m: attribute  define_attribute
+[1m[1;34mActiveRecord::AttributeDecorators::ClassMethods#methods[0m[0m: decorate_attribute_type  decorate_matching_attribute_types
+[1m[1;34mActiveRecord::Locking::Optimistic::ClassMethods#methods[0m[0m: 
+  locking_column  locking_column=  locking_enabled?  reset_locking_column  update_counters
+[1m[1;34mActiveModel::Validations::Callbacks::ClassMethods#methods[0m[0m: after_validation  before_validation
+[1m[1;34mActiveModel::AttributeMethods::ClassMethods#methods[0m[0m: 
+  alias_attribute  attribute_alias?        attribute_method_prefix  define_attribute_method    
+  attribute_alias  attribute_method_affix  attribute_method_suffix  generated_attribute_methods
+[1m[1;34mActiveRecord::AttributeMethods::ClassMethods#methods[0m[0m: 
+  attribute_method?  class_method_defined_within?  dangerous_class_method?   has_attribute?                method_defined_within?    
+  attribute_names    column_for_attribute          define_attribute_methods  initialize_generated_modules  undefine_attribute_methods
+[1m[1;34mActiveRecord::AttributeMethods::PrimaryKey::ClassMethods#methods[0m[0m: 
+  dangerous_attribute_method?  instance_method_already_implemented?  primary_key=        reset_primary_key
+  get_primary_key              primary_key                           quoted_primary_key
+[1m[1;34mActiveRecord::AttributeMethods::Serialization::ClassMethods#methods[0m[0m: serialize
+[1m[1;34mActiveRecord::Associations::ClassMethods#methods[0m[0m: belongs_to  has_and_belongs_to_many  has_many  has_one
+[1m[1;34mActiveModel::SecurePassword::ClassMethods#methods[0m[0m: has_secure_password
+[1m[1;34mActiveRecord::NestedAttributes::ClassMethods#methods[0m[0m: accepts_nested_attributes_for
+[1m[1;34mActiveRecord::Aggregations::ClassMethods#methods[0m[0m: composed_of
+[1m[1;34mActiveRecord::Transactions::ClassMethods#methods[0m[0m: 
+  after_commit                                 after_rollback                                 before_commit_without_transaction_enrollment
+  after_commit_without_transaction_enrollment  after_rollback_without_transaction_enrollment  transaction                                 
+  after_create_commit                          after_update_commit                          
+  after_destroy_commit                         before_commit                                
+[1m[1;34mActiveRecord::NoTouching::ClassMethods#methods[0m[0m: no_touching
+[1m[1;34mActiveRecord::Reflection::ClassMethods#methods[0m[0m: 
+  _reflect_on_association  reflect_on_aggregation       reflect_on_all_associations           reflect_on_association
+  clear_reflections_cache  reflect_on_all_aggregations  reflect_on_all_autosave_associations  reflections           
+[1m[1;34mActiveRecord::Store::ClassMethods#methods[0m[0m: _store_accessors_module  store  store_accessor  stored_attributes
+[1m[1;34mActiveRecord::SecureToken::ClassMethods#methods[0m[0m: generate_unique_secure_token  has_secure_token
+[1m[1;34mActiveRecord::Suppressor::ClassMethods#methods[0m[0m: suppress
+[1m[1;34mActiveRecord::Base.methods[0m[0m: 
+  __callbacks=                                              connection_handler=                      
+  __callbacks?                                              default_connection_handler               
+  _attr_readonly                                            default_connection_handler=              
+  _attr_readonly=                                           default_connection_handler?              
+  _attr_readonly?                                           default_scope_override=                  
+  _before_commit_callbacks                                  default_scopes                           
+  _before_commit_callbacks=                                 default_scopes=                          
+  _before_commit_without_transaction_enrollment_callbacks   default_timezone                         
+  _before_commit_without_transaction_enrollment_callbacks=  default_timezone=                        
+  _commit_callbacks                                         defined_enums=                           
+  _commit_callbacks=                                        defined_enums?                           
+  _commit_without_transaction_enrollment_callbacks          dump_schema_after_migration              
+  _commit_without_transaction_enrollment_callbacks=         dump_schema_after_migration=             
+  _create_callbacks                                         dump_schemas                             
+  _create_callbacks=                                        dump_schemas=                            
+  _destroy_callbacks                                        error_on_ignored_order                   
+  _destroy_callbacks=                                       error_on_ignored_order=                  
+  _find_callbacks                                           error_on_ignored_order_or_limit          
+  _find_callbacks=                                          error_on_ignored_order_or_limit=         
+  _initialize_callbacks                                     include_root_in_json                     
+  _initialize_callbacks=                                    include_root_in_json=                    
+  _reflections=                                             include_root_in_json?                    
+  _reflections?                                             index_nested_attribute_errors            
+  _rollback_callbacks                                       index_nested_attribute_errors=           
+  _rollback_callbacks=                                      internal_metadata_table_name             
+  _rollback_without_transaction_enrollment_callbacks        internal_metadata_table_name=            
+  _rollback_without_transaction_enrollment_callbacks=       internal_metadata_table_name?            
+  _save_callbacks                                           local_stored_attributes                  
+  _save_callbacks=                                          local_stored_attributes=                 
+  _touch_callbacks                                          lock_optimistically                      
+  _touch_callbacks=                                         lock_optimistically=                     
+  _update_callbacks                                         lock_optimistically?                     
+  _update_callbacks=                                        logger                                   
+  _validate_callbacks                                       logger=                                  
+  _validate_callbacks=                                      maintain_test_schema                     
+  _validation_callbacks                                     maintain_test_schema=                    
+  _validation_callbacks=                                    nested_attributes_options                
+  _validators=                                              nested_attributes_options=               
+  _validators?                                              nested_attributes_options?               
+  after_create                                              partial_writes                           
+  after_destroy                                             partial_writes=                          
+  after_find                                                partial_writes?                          
+  after_initialize                                          pluralize_table_names                    
+  after_save                                                pluralize_table_names=                   
+  after_touch                                               pluralize_table_names?                   
+  after_update                                              primary_key_prefix_type                  
+  aggregate_reflections                                     primary_key_prefix_type=                 
+  aggregate_reflections=                                    record_timestamps                        
+  aggregate_reflections?                                    record_timestamps=                       
+  around_create                                             record_timestamps?                       
+  around_destroy                                            schema_format                            
+  around_save                                               schema_format=                           
+  around_update                                             schema_migrations_table_name             
+  attribute_aliases                                         schema_migrations_table_name=            
+  attribute_aliases=                                        schema_migrations_table_name?            
+  attribute_aliases?                                        skip_time_zone_conversion_for_attributes 
+  attribute_method_matchers                                 skip_time_zone_conversion_for_attributes=
+  attribute_method_matchers=                                skip_time_zone_conversion_for_attributes?
+  attribute_method_matchers?                                store_full_sti_class                     
+  attribute_type_decorations=                               store_full_sti_class=                    
+  attribute_type_decorations?                               store_full_sti_class?                    
+  attributes_to_define_after_schema_loads                   table_name_prefix                        
+  attributes_to_define_after_schema_loads=                  table_name_prefix=                       
+  attributes_to_define_after_schema_loads?                  table_name_prefix?                       
+  before_create                                             table_name_suffix                        
+  before_destroy                                            table_name_suffix=                       
+  before_save                                               table_name_suffix?                       
+  before_update                                             time_zone_aware_attributes               
+  belongs_to_required_by_default                            time_zone_aware_attributes=              
+  belongs_to_required_by_default=                           time_zone_aware_types                    
+  cache_timestamp_format                                    time_zone_aware_types=                   
+  cache_timestamp_format=                                   time_zone_aware_types?                   
+  cache_timestamp_format?                                   timestamped_migrations                   
+  configurations                                            timestamped_migrations=                  
+  configurations=                                           warn_on_records_fetched_greater_than     
+  connection_handler                                        warn_on_records_fetched_greater_than=    
+[1m[1;34mUser.methods[0m[0m: 
+  __callbacks                  after_add_for_users?            before_add_for_reservations      before_remove_for_reservations?
+  _reflections                 after_remove_for_reservations   before_add_for_reservations=     before_remove_for_users        
+  _validators                  after_remove_for_reservations=  before_add_for_reservations?     before_remove_for_users=       
+  after_add_for_reservations   after_remove_for_reservations?  before_add_for_users             before_remove_for_users?       
+  after_add_for_reservations=  after_remove_for_users          before_add_for_users=            default_scope_override         
+  after_add_for_reservations?  after_remove_for_users=         before_add_for_users?            defined_enums                  
+  after_add_for_users          after_remove_for_users?         before_remove_for_reservations 
+  after_add_for_users=         attribute_type_decorations      before_remove_for_reservations=
+[1m[1;34mUser#methods[0m[0m: 
+  after_add_for_reservations      after_remove_for_users=                       before_remove_for_reservations              
+  after_add_for_reservations=     after_remove_for_users?                       before_remove_for_reservations=             
+  after_add_for_reservations?     autosave_associated_records_for_reservations  before_remove_for_reservations?             
+  after_add_for_users             autosave_associated_records_for_users         before_remove_for_users                     
+  after_add_for_users=            before_add_for_reservations                   before_remove_for_users=                    
+  after_add_for_users?            before_add_for_reservations=                  before_remove_for_users?                    
+  after_remove_for_reservations   before_add_for_reservations?                  validate_associated_records_for_reservations
+  after_remove_for_reservations=  before_add_for_users                          validate_associated_records_for_users       
+  after_remove_for_reservations?  before_add_for_users=                       
+  after_remove_for_users          before_add_for_users?                       
+[1m[1;34minstance variables[0m[0m: 
+  [0;34m@__reflections[0m                    [0;34m@attribute_types[0m     [0;34m@find_by_statement_cache[0m        [0;34m@parent_name[0m              [0;34m@sequence_name[0m
+  [0;34m@_type_candidates_cache[0m           [0;34m@attributes_builder[0m  [0;34m@finder_needs_type_condition[0m    [0;34m@predicate_builder[0m        [0;34m@table_name[0m   
+  [0;34m@arel_engine[0m                      [0;34m@column_names[0m        [0;34m@generated_association_methods[0m  [0;34m@primary_key[0m              [0;34m@yaml_encoder[0m 
+  [0;34m@arel_table[0m                       [0;34m@columns[0m             [0;34m@generated_attribute_methods[0m    [0;34m@quoted_primary_key[0m     
+  [0;34m@attribute_method_matchers_cache[0m  [0;34m@columns_hash[0m        [0;34m@inheritance_column[0m             [0;34m@quoted_table_name[0m      
+  [0;34m@attribute_methods_generated[0m      [0;34m@content_columns[0m     [0;34m@load_schema_monitor[0m            [0;34m@relation_delegate_cache[0m
+  [0;34m@attribute_names[0m                  [0;34m@default_attributes[0m  [0;34m@locking_column[0m                 [0;34m@schema_loaded[0m          
+[1m[1;34mclass variables[0m[0m: 
+  [1;34m@@belongs_to_required_by_default[0m  [1;34m@@dump_schemas[0m                   [1;34m@@maintain_test_schema[0m        [1;34m@@timestamped_migrations[0m              
+  [1;34m@@configurations[0m                  [1;34m@@error_on_ignored_order[0m         [1;34m@@primary_key_prefix_type[0m     [1;34m@@warn_on_records_fetched_greater_than[0m
+  [1;34m@@default_timezone[0m                [1;34m@@index_nested_attribute_errors[0m  [1;34m@@schema_format[0m             
+  [1;34m@@dump_schema_after_migration[0m     [1;34m@@logger[0m                         [1;34m@@time_zone_aware_attributes[0m

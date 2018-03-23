@@ -1,1 +1,28 @@
 <h1>This is the index for reservations</h1>
+
+<h1>Let's try reserving a class for crossfit!</h1>
+<table>
+  <head>
+<style>
+table, th, td {border: 1px solid black; margin: 0 auto; width: 500px; text-align: center; }
+</style>
+</head>
+ <thead>
+  <tr>
+    <th>Id</th>
+    <th>Date</th>
+    <th>Time</th> 
+    <th>Capacity</th>
+  </tr>
+  </thead>
+<% @klasses.each do |klass| %>
+  <tbody>
+  <tr>
+  <td><%= klass.id %> </td>
+  <td><%= klass.date %> </td> 
+  <td><%= klass.my_time %> </td>
+  <td><%= klass.capacity %> </td>
+  </tr>
+  </tbody>
+ <% end %>
+</table>

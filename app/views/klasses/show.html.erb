@@ -1,5 +1,28 @@
-<h1>This is the show.html.erb page for Klasses</h1> 
-<%= Klass.all %>
+<h1>Sign up members</h1>
 
+<table>
+ <head>
+<style>
+table, th, td {border: 1px solid black; margin: 0 auto; width: 500px; text-align: center; }
+</style>
+</head>
+ <thead>
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Sign me Up!</th>
+  </tr>
+  </thead>
+<% @users.each do |user| %>
+  <tbody>
+  <tr>
+  <td><%= user.id %> </td>
+  <td><%= user.name %> </td> 
+  <td><%= user.email %> </td>
+  <td><%= button_to 'Sign Up!', {controller: "reservations", action: "create", method: :post, :class => "btn btn-success", reservation: {klass_id: @klass.id, user_id: user.id} } %></td>
 
-<%= link_to 'edit', "/klasses/#{@klass.id}/edit" %>
+  </tr>
+  </tbody>
+ <% end %>
+</table>
